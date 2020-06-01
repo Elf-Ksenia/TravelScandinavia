@@ -1,0 +1,222 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* html {
+  font-size: ;
+} */
+
+body {
+  color: #090b06;
+  font: 400 12px/1 'anironcbold', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+/* reset */
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.jc-btw {
+  justify-content: space-between;
+}
+
+.jc-ar {
+  justify-content: space-around;
+}
+
+.ali {
+  align-items: center;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  width: 100%;
+}
+
+.container-fluid {
+margin-right: 0;
+  margin-left:0;
+  width: 100%;
+  position: relative;
+}
+
+.main {
+position: relative;
+margin-top:200px;
+margin-bottom: 25px;
+
+}
+
+.header {
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #090b069a;
+  z-index: 100;
+  top: 0;
+}
+/* .flags {
+} */
+.flag {
+  display: block;
+  max-width: 80px;
+}
+
+.flag + .flag {
+  margin-left: 10px;
+}
+
+.dropdown-list {
+  display: none;
+  top: 100%;
+  position: absolute;
+  left: 0;
+  right: 0; 
+  background: url('../img/tolkien-map.jpg') no-repeat center 100%;
+  opacity: 0.8;
+  width: 100%;
+  color: #090b06;
+  padding: 0 15px;
+  box-shadow: 0 0 15px #fdfb60d5;
+  border: none;
+}
+
+.header-nav {
+  margin-right: 0;
+}
+
+.logo {
+  margin-right: 20px;
+}
+.dropdown-list-item {
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.header .dropdown {
+  margin-left: 20px;
+  color: #eed679;
+
+}
+.header .dropdown i {
+  display: none;
+}
+
+.header .dropdown:hover, .footer .icon:hover{
+  text-shadow: #eed679 2px 0 10px;
+}
+
+.carousel {
+  max-width: 1100px;
+  height: auto;
+
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .header .dropdown span {
+    display: none; 
+}
+.partner-logo {
+  max-width: 50px;
+}
+
+.header .dropdown i {
+  display: block;
+  font-size: 20px;
+}
+}
+
+
+.footer {
+  background-color: #090b06;
+  color: #eed679;
+
+}
+/* 
+.left-footer {
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.left-footer .icon + .icon {
+  margin-left: 10px;
+}
+ */
+.partners {
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.partner-logo{
+max-width: 150px;
+padding: 10px;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+@font-face {
+  font-family: 'anironcbold';
+  src: url('../fonts/anirm___.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
